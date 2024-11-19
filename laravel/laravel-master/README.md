@@ -1,1 +1,0 @@
-Eloquent Method in Laravel
