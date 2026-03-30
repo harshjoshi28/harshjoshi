@@ -1,7 +1,7 @@
 <?php
-require "config.php";
+include "config.php";
 $id = $_REQUEST['id'];
-$delete = "DELETE FROM `reg1` WHERE `id`='$id'";
+$delete = "DELETE FROM `stud` WHERE `id`='$id'";
 $result = mysqli_query($con,$delete);
-header("location:details.php");
+header("location:stud.php");
 ?>

@@ -1,3 +1,3 @@
 <?php
-$con = mysqli_connect("localhost","root","","geet");
+    $con = mysqli_connect("localhost","root","","bscit");
 ?>
